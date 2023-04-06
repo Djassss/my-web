@@ -1,0 +1,215 @@
+@import "colors";
+
+
+.home{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+.main_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        height: 80vh;
+        width: 100%;
+    }
+}
+h1{
+    position: absolute;
+    font: 400 5rem "Roboto";
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.video{
+  width: 100%;
+  border: none;
+  outline: none;
+  video{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-bottom: 1px;
+  }
+}
+main{
+    position: absolute;
+    margin-top: 300px;
+    color: #fff;
+      button{
+        border: none;
+        padding: 12px 20px;
+        color: #333;
+        background: #fff;
+        transition: 0.5s;
+        margin: 20px;
+        width: 150px;
+        &:hover{
+            cursor: pointer;
+            background: #333;
+            color: #fff;
+            transition: 0.5s;
+        }
+    }
+   
+}
+   
+}
+
+.home2{
+    .block{
+        display: flex;
+        .section-1{
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: flex-start;
+          background-image: url(../zaraImages/people.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          justify-content: end;
+          height: 100vh;
+          width: 100%;
+          align-items: flex-start;
+          .section-1_h3{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            h3{
+              font-size: 40px;
+              color: #333;
+              letter-spacing: 3px;
+            }
+            a{
+                text-decoration: none;
+                margin-top: 20px;
+                color: #000;
+                border-bottom: 1px solid #000;
+                max-width: 100px;
+                text-align: center;
+                font-size: 12px;
+            }
+          }
+        }
+        .section-2{
+          display: flex;
+          background-image: url(../zaraImages/1255850800_1_1_1.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          justify-content: start;
+          align-items: flex-end;
+          margin-left: 3px;
+          width: 40%;
+          .section-2_h3{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            margin-left: 50px;
+            h3{
+              font-size: 40px;
+              color: #333;
+              letter-spacing: 3px;
+            }
+            a{
+              text-decoration: none;
+              margin-top: 20px;
+              color: #333;
+              border-bottom: 1px solid #000;
+              max-width: 100px;
+              text-align: center;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      .block-2{
+        display: flex;
+        justify-content: center;
+        section{
+          margin: 2px 2px;
+          height: 100vh;
+          width: 100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: flex-start;
+          &:hover{
+            transition: 0.5s;
+            cursor: pointer;
+          }
+          a{
+            text-decoration: none;
+            color: #fff;
+            border-bottom: 1px solid;
+            font-size: 14px;
+            margin-left: 75px;
+            margin-bottom: 20px;
+          }
+          h3{
+            font-size: 40px;
+            color: #fff;
+            letter-spacing: 3px;
+            margin-left: 70px;
+            margin-bottom: 20px;
+          }
+        }
+        .section-1{
+          background-image: url(../zaraImages/3443801104_2_1_1.jpg);
+        }
+        .section-2{
+          background-image: url(../zaraImages/9137829330_1_1_1.jpg);
+        }
+        .section-3{
+          background-image: url(../zaraImages/4043321711_1_1_1.jpg);
+        }
+        .section-4{
+          background-image: url(../zaraImages/Безназвания.jpg);
+        }
+        .section-5{
+          background-image: url(../zaraImages/bag.jpg);
+        }
+        .section-6{
+          background-image: url(../zaraImages/tufli2.jpg);
+        }
+      }
+      h1{
+        display: flex;
+        justify-content: center;
+        margin: 50px 0;
+      }
+}
+.main{
+  display: flex;
+  justify-content: center;
+  .carousel{
+    margin-bottom: 50px;    
+    .img-border{
+      padding: 2px;
+    }
+  }
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  .btn{
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+    &:hover{
+      background: #999;
+      cursor: pointer;
+    }
+  }
+}

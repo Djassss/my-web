@@ -1,0 +1,164 @@
+.LogoImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 100%;
+
+    }
+}
+.newNow{
+  font-size: 18px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+.filter-price{
+  padding: 0 130px;
+  img{
+    margin:  15px;
+    cursor: pointer;
+  }
+}
+.block{
+display: flex;
+justify-content: center;
+.section_1{
+  // padding: 5px 2px;
+  .carousel.carousel-slider .control-arrow{
+    background: none;
+    cursor: pointer;
+    
+  }
+  .carousel-slider{
+    margin: 0 2px;
+    &:hover{
+      
+    }
+  }
+  .carousel .control-prev.control-arrow:before{
+    border-right: 8px solid #000;
+
+}
+.carousel .control-next.control-arrow:before{
+  border-left: 8px solid #000;
+}
+  .slide {
+    width: 500px;
+    .carousel:hover .slide .legend{
+      opacity: 0.7;
+    }
+    div{
+      cursor: pointer;
+      .legend{
+        opacity: 0;
+        background: #fff;
+        border-radius: 10px 10px 0 0;
+        // display: flex;
+        bottom: 0;
+        padding: 20px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 50px;
+        left:0;
+        margin-left:0;
+        width:100%;
+        .size{
+          span{
+            padding: 5px 10px;
+            color: #000;
+            text-transform: uppercase;
+            cursor: pointer;
+          }
+          .xxs{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: #9999;
+            }
+          }
+          .xs{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: #9999;
+            }
+          }
+          .s{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: #9999;
+            }
+          }
+          .m{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: #9999;
+            }
+          }
+          .l{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: #9999;
+            }
+          }
+          .xl{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: #9999;
+            }
+          }
+          .xxl{
+            transition: 0.4s;
+            &:hover{
+              transition: 0.4s;
+              background: rgb(0, 0, 0, 0.1);;
+            }
+          }
+        }
+        p{
+          color: #000;
+          text-transform: none;
+        }
+      }
+    }
+  }
+  .list-price{
+    .icon{
+      color: rgb(144, 76, 89);
+    }
+    padding: 20px 30px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    span{
+      letter-spacing: 1px;
+      font-family: 'Roboto';
+      font-size: 13px;
+    }
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

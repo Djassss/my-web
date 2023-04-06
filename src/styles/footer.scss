@@ -1,0 +1,185 @@
+.footer{
+    padding: 55px;
+    .footer-logo h1{
+      display: flex;
+      justify-content: center;
+      text-transform: capitalize;
+      font-size: 30px;
+      color: #333;
+      letter-spacing: 2px;
+
+    }
+.list{
+    display: flex;
+    padding: 50px;
+    .footer-list1{
+        width: 300px;
+        h4{
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-bottom: 35px;
+        letter-spacing: 1px;
+        padding: 10px;
+    
+        }
+        li{
+        list-style: none;
+        font-size: 12px;
+        line-height: 10px;
+        letter-spacing: 1px;
+        padding: 10px;
+        &:hover{
+            border-left: 1px solid #333;
+            cursor: pointer;
+            color: #9999;
+            transition: 0.3s;
+        }
+        }
+    }
+    
+    .footer-list2{
+        width: 300px;
+        h4{
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-bottom: 35px;
+        letter-spacing: 1px;
+        padding: 10px;
+        }
+        li{
+        list-style: none;
+        font-size: 12px;
+        line-height: 10px;
+        letter-spacing: 1px;
+        padding: 10px;
+        &:hover{
+            border-left: 1px solid #333;
+            cursor: pointer;
+            color: #9999;
+            transition: 0.3s;
+        }
+        }
+    }
+    }
+    .footer-bottom{
+    border-top: 1px solid #3333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .sell{
+        padding-top: 50px;
+        p{
+        font-size: 12px;
+        }
+    }
+    .email{
+        padding-top: 50px;
+        border-bottom: thin solid #aaa;
+        font-size: 13px;
+        width: 250px;
+        input{
+        border: none;
+        appearance: none;
+        outline: none;
+        width: 100%;
+        padding-bottom: 8px;
+        background: transparent;
+        }
+    }
+    .footer-btn{
+        padding-top: 40px;
+        button{
+        background: #000;
+        padding: 10px;
+        color: #fff;
+        width: 250px;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover{
+            background: #333;
+            transition: 0.5s;
+        }
+        }
+    }
+    .footer_text{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        p{
+        font-size: 8px;
+        color: #999;
+        a{
+            border-bottom: 1px solid #999;
+            cursor: pointer;
+        }
+        }
+    }
+    .uzb{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        img{
+        width: 15px;
+        }
+        .arrow{
+        color: #333;
+        font-size: 15px;
+        }
+        p{
+        font-size: 13px;
+        padding: 0 15px;
+        }
+    }
+    .brands_name{
+        padding: 20px 0;
+        line-height: 25px;
+        font-size: 14px;
+        cursor: pointer;
+        border-bottom: 1px solid #9999;
+        p{
+        text-align: center;
+        line-height: 23px;
+        font-size: 13px;
+        span{
+            padding: 25px;
+            &:hover{
+            text-decoration: underline;
+            }
+        }
+        .btn-span{
+            padding: 5px;
+        }
+        }
+    }
+    .footer-social{
+        .fa-brands{
+        padding: 10px;
+        font-size: 25px;
+        cursor: pointer;
+        color: #000;
+        transition: 0.5s;
+        &:hover{
+            color: #4d4e4f;
+            transition: 0.5s;
+        }
+        } 
+    }
+    .logo img{
+        margin-top: 50px;
+        width: 150px;
+        background: #333;
+        padding: 10px 25px;
+        border-radius: 5px;
+        box-shadow:  2px 2px 10px  #000;
+    }
+    
+  }
+}
+.wwb-2022{
+    color: #999;
+    font-size: 8px;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
