@@ -2,7 +2,6 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
-// const myImg2 = document.getElementById('img2').style.display = "flex"; 
 
 
 

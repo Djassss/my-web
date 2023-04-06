@@ -22,22 +22,7 @@ import "./styles/SignIn.scss";
 import "./styles/Register.scss";
 
 
-// const user = [{
-//   name: 'A',
-//   age: 30,
-//   country: 'Uzb'
-// }, {
-//   name: 'B',
-//   age: 22,
-//   country: 'Russia'
-// }, {
-//   name: 'C',
-//   age: 43,
-//   country: 'Dubai'
-// }];
 
-// user.push({name: 'D', age: 55, country: 'Us'})
-// alert(user[3].age);
 
 
 function App() {
@@ -45,7 +30,7 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="*" element={<Home />}/>
         <Route path="/woman" element={<Woman />}/>
         <Route path="/newCollection" element={<NewCollection />}/>
         <Route path="/sell" element={<Sell />}/>

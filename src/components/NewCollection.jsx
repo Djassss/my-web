@@ -40,121 +40,38 @@ const NewCollection = () => {
       <Carousel className='slide1' autoPlay infiniteLoop  showArrows={true}  showStatus={false}  showThumbs={true} showIndicators={false}>
           <div>
             <img className='slider' src={require("../mangoImg/загрузка(24).jpg")} />
-            {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+           
           </div>
           <div>
             <img className='slider' src={require("../mangoImg/загрузка.jpg")} />
-            {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+           
           </div>
           <div>
             <img className='slider' src={require("../mangoImg/загрузка(30).jpg")} />
-            {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+          
           </div>
           <div>
           <img className='slider' src={require("../mangoImg/загрузка(16).jpg")} />
-          {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+        
           </div>
       </Carousel>
-      {/* <Carousel   showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
-          <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-          <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-          <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-          <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-      </Carousel> */}
-      {/* <Carousel   showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
-          <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-          <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-          <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-          <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div>
-      </Carousel> */}
+     
       <Carousel  className='slide1' autoPlay infiniteLoop  showArrows={true} showStatus={false}  showThumbs={true} showIndicators={false}>
           <div>
             <img className='slider' src={require("../mangoImg/загрузка(2).jpg")} />
-            {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+          
           </div>
           <div>
             <img className='slider' src={require("../mangoImg/загрузка(25).jpg")} />
-            {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+         
           </div>
           <div>
             <img className='slider' src={require("../mangoImg/загрузка(5).jpg")} />
-            {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+           
           </div>
           <div>
           <img className='slider' src={require("../mangoImg/загрузка(13).jpg")} />
-          {/* <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p> */}
+        
           </div>
       </Carousel>
     </div>
@@ -176,20 +93,8 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+        
+       
       </Carousel>
       <Carousel className='slide2'  autoPlay  infiniteLoop showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
           <div>
@@ -206,20 +111,8 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+         
+      
       </Carousel>
       <Carousel  className='slide2' autoPlay  infiniteLoop showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
           <div>
@@ -236,20 +129,8 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+        
+        
       </Carousel>
       <Carousel  className='slide2' autoPlay  infiniteLoop showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
           <div>
@@ -266,40 +147,16 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-            <p className='legend'>
-                <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-                <a href="#" id='bags'>view product</a>
-              </p>
-          </div> */}
+         
+          
       </Carousel>
     </div>
       <div className="product">Bags</div>
 
       <div className="slide">
       <Carousel  className='slide3' autoPlay  infiniteLoop showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+         
+      
           <div>
             <img className='slider' src={require("../mangoImg/загрузка(15).jpg")} />
             <p className='legend'>
@@ -330,20 +187,8 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+         
+         
       </Carousel>
       <Carousel className='slide3' autoPlay  infiniteLoop showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
           <div>
@@ -360,20 +205,8 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+         
+      
       </Carousel>
       <Carousel className='slide3'  autoPlay  infiniteLoop showArrows={false} showStatus={false}  showThumbs={false} showIndicators={false}>
           <div>
@@ -390,20 +223,7 @@ const NewCollection = () => {
               <a href="#">view product</a>
             </p>
           </div>
-          {/* <div>
-            <img className='slider' src={require("../zaraImages/pretty3.jpg")} />
-            <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
-          {/* <div>
-          <img className='slider' src={require("../zaraImages/pretty.jpg")} />
-          <p className='legend'>
-              <FontAwesomeIcon className='icon' icon={faHeart}></FontAwesomeIcon>
-              <a href="#">view product</a>
-            </p>
-          </div> */}
+       
       </Carousel>
     </div>
 
