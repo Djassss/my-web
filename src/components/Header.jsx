@@ -29,7 +29,7 @@ const [show, setShow] = useState();
 <div className="list">
   <ul className='list_1'>
     <li>New Now</li>
-    <li>Gift Guidee</li>
+    <li>Gift Guide</li>
     <li className='showcase' onClick={() => setShow((prev) => !prev)}>
       {show ? 'Clothing'  : 'Clothing '}
 {show &&
